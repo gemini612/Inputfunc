@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Activity" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lLf-Da-neA">
+                                <rect key="frame" x="455" y="433" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="320" y="433" width="97" height="30"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="292" y="447" width="80" height="30"/>
+                                </variation>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Start Time" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SY9-w4-BZ0">
+                                <rect key="frame" x="41" y="433" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="5" y="433" width="97" height="30"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="28" y="447" width="80" height="30"/>
+                                </variation>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="End Time" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fi7-jW-9Be">
+                                <rect key="frame" x="178" y="433" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="110" y="433" width="97" height="30"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="116" y="447" width="80" height="30"/>
+                                </variation>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Catalog" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OYb-g0-Fz9">
+                                <rect key="frame" x="318" y="433" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="215" y="433" width="97" height="30"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="204" y="447" width="80" height="30"/>
+                                </variation>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hhN-Sk-R4p">
+                                <rect key="frame" x="222" y="520" width="157" height="45"/>
+                                <state key="normal" title="Submit">
+                                    <color key="titleColor" red="0.22804931840000001" green="0.81237411250000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="117" y="529" width="157" height="45"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="122" y="480" width="157" height="45"/>
+                                </variation>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="439.5" y="345.75"/>
+        </scene>
+    </scenes>
+</document>
